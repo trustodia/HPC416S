@@ -1,0 +1,51 @@
+## COMMAND
+`curl -i -H "Content-Type: application/json" -X POST -d '{"application":"2","description":"sayhello@csgfsdk test run", "arguments": ["\"I am saying hello!\""],  "output_files": [{"name":"sayhello.data"}], "input_files": [{"name":"sayhello.sh"},{"name":"sayhello.txt"}]}' http://151.97.41.76:8888/v1.0/tasks?user=user`
+
+## EXPECTED OUTPUT
+```
+{
+    "status": "WAITING",
+    "application": "2",
+    "date": "2016-11-16T09:28:47Z",
+    "description": "sayhello@csgfsdk test run",
+    "output_files": [
+        {
+            "url": "file?path=&name=sayhello.data",
+            "name": "sayhello.data"
+        },
+        {
+            "url": "file?path=&name=sayhello.out",
+            "name": "sayhello.out"
+        },
+        {
+            "url": "file?path=&name=sayhello.err",
+            "name": "sayhello.err"
+        }
+    ],
+    "_links": [
+        {
+            "href": "/v1.0/tasks/16",
+            "rel": "self"
+        },
+        {
+            "href": "/v1.0/tasks/16/input",
+            "rel": "input"
+        }
+    ],
+    "user": "user",
+    "input_files": [
+        {
+            "status": "NEEDED",
+            "name": "sayhello.sh"
+        },
+        {
+            "status": "NEEDED",
+            "name": "sayhello.txt"
+        }
+    ],
+    "id": "16",
+    "arguments": [
+        "\"I am saying hello!\""
+    ]
+}
+```

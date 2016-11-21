@@ -1,0 +1,14 @@
+## COMMAND
+`curl -i -F "file[]=@sayhello.txt" -F "file[]=@sayhello.sh" "http://151.97.41.76:8888/v1.0/tasks/16/input?user=user"`
+
+## EXPECTED OUTPUT
+```{
+    "files": [
+        "sayhello.txt",
+        "sayhello.sh"
+    ],
+    "message": "uploaded",
+    "task": "16",
+    "gestatus": "triggered"
+}
+```

@@ -1,0 +1,44 @@
+## COMMAND
+`curl -X GET "http://151.97.41.76:8888/v1.0/tasks/16"`
+
+## EXPECTED OUTPUT
+```{
+  "last_change": "2016-11-16T09:31:33Z",
+  "input_files": [
+    {
+      "name": "sayhello.sh",
+      "url": "file?path=%2Ftmp%2F137e989e-abdf-11e6-b19b-fa163e72d9ab&name=sayhello.sh",
+      "status": "READY"
+    },
+    {
+      "name": "sayhello.txt",
+      "url": "file?path=%2Ftmp%2F137e989e-abdf-11e6-b19b-fa163e72d9ab&name=sayhello.txt",
+      "status": "READY"
+    }
+  ],
+  "runtime_data": [],
+  "arguments": [
+    "\"I am saying hello!\""
+  ],
+  "status": "DONE",
+  "description": "sayhello@csgfsdk test run",
+  "creation": "2016-11-16T09:28:47Z",
+  "iosandbox": "/tmp/137e989e-abdf-11e6-b19b-fa163e72d9ab",
+  "user": "user",
+  "id": "16",
+  "output_files": [
+    {
+      "name": "sayhello.data",
+      "url": "file?path=%2Ftmp%2F137e989e-abdf-11e6-b19b-fa163e72d9ab%2F16tmp137e989eabdf11e6b19bfa163e72d9ab_48&name=sayhello.data"
+    },
+    {
+      "name": "sayhello.out",
+      "url": "file?path=%2Ftmp%2F137e989e-abdf-11e6-b19b-fa163e72d9ab%2F16tmp137e989eabdf11e6b19bfa163e72d9ab_48&name=sayhello.out"
+    },
+    {
+      "name": "sayhello.err",
+      "url": "file?path=%2Ftmp%2F137e989e-abdf-11e6-b19b-fa163e72d9ab%2F16tmp137e989eabdf11e6b19bfa163e72d9ab_48&name=sayhello.err"
+    }
+  ],
+  "application": "2"
+}```
