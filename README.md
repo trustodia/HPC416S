@@ -12,7 +12,7 @@ Linux or Unix 64-bit OS, > 20GB RAM and > 4 CPU cores.
 1. USEARCH 7.0.1001: http://www.drive5.com/usearch/download.html and 
 usearch version 6.1.554 # rename USEARCH61
 Make sure usearch version 6.1.554 is installed in your path (moved to /usr/bin) or you run it your dir
-sudo chmod 777 /usr/bin/usearch61  #make executable 
+sudo chmod 777 /usr/bin/usearch61  #make executable . Both USEARCH are required
 
 2. QIIME 64-bit of the latest qiime should be installed along with its dependencies.
   Cent OS installation guide: http://www.chenlianfu.com/?p=2362 and  https://gist.github.com/alanorth/100dd95f809223ae0100
