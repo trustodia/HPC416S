@@ -1,0 +1,67 @@
+<!--: spam
+Content-Type: text/html
+
+<body bgcolor="#f0f0f8"><font color="#f0f0f8" size="-5"> -->
+<body bgcolor="#f0f0f8"><font color="#f0f0f8" size="-5"> --> -->
+</font> </font> </font> </script> </object> </blockquote> </pre>
+</table> </table> </table> </table> </table> </font> </font> </font><body bgcolor="#f0f0f8">
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#6622aa">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>&lt;type 'exceptions.IOError'&gt;</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial">Python 2.7.6: /usr/bin/python<br>Mon Nov 28 08:20:22 2016</font></td></tr></table>
+    
+<p>A problem occurred in a Python script.  Here is the sequence of
+function calls leading up to the error, in the order they occurred.</p>
+<table width="100%" cellspacing=0 cellpadding=0 border=0>
+<tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///var/www/web/cgi-bin/upload3.py">/var/www/web/cgi-bin/upload3.py</a> in <strong><module></strong>()</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;234</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sys.exit(0)<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;235</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;236</small>&nbsp;Name,&nbsp;Path&nbsp;=&nbsp;RunSign(Email,&nbsp;Ver,&nbsp;Platform,&nbsp;Bits,&nbsp;Expires,&nbsp;Use,&nbsp;Number)<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;&nbsp;237</small>&nbsp;Upload(Name,&nbsp;Path)<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;238</small>&nbsp;Log("Done")<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090"><strong>Upload</strong>&nbsp;= &lt;function Upload&gt;, <strong>Name</strong>&nbsp;= 'usearch7.0.1001_i86linux32', <strong>Path</strong>&nbsp;= '/p/tmp/usend_27978/usearch7.0.1001_i86linux32'</font></small></td></tr></table>
+<table width="100%" cellspacing=0 cellpadding=0 border=0>
+<tr><td bgcolor="#d8bbff"><big>&nbsp;</big><a href="file:///var/www/web/cgi-bin/upload3.py">/var/www/web/cgi-bin/upload3.py</a> in <strong>Upload</strong>(Name='usearch7.0.1001_i86linux32', Path='/p/tmp/usend_27978/usearch7.0.1001_i86linux32')</td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;87</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print&nbsp;""<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;88</small>&nbsp;<br>
+</tt></font></td></tr>
+<tr><td bgcolor="#ffccee"><tt>=&gt;<small>&nbsp;&nbsp;&nbsp;89</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File&nbsp;=&nbsp;open(Path,&nbsp;"rb")<br>
+</tt></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;90</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print&nbsp;File.read()<br>
+</tt></font></td></tr>
+<tr><td><font color="#909090"><tt>&nbsp;&nbsp;<small>&nbsp;&nbsp;&nbsp;91</small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;File.close()<br>
+</tt></font></td></tr>
+<tr><td><small><font color="#909090"><em>global</em> <strong>File</strong>&nbsp;= &lt;open file '/public/web/lic/2016112808021714677', mode 'r'&gt;, <em>builtin</em> <strong>open</strong>&nbsp;= &lt;built-in function open&gt;, <strong>Path</strong>&nbsp;= '/p/tmp/usend_27978/usearch7.0.1001_i86linux32'</font></small></td></tr></table><p><strong>&lt;type 'exceptions.IOError'&gt;</strong>: [Errno 2] No such file or directory: '/p/tmp/usend_27978/usearch7.0.1001_i86linux32'
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>args&nbsp;=
+(2, 'No such file or directory')
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>errno&nbsp;=
+2
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>filename&nbsp;=
+'/p/tmp/usend_27978/usearch7.0.1001_i86linux32'
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>message&nbsp;=
+''
+<br><tt><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small>&nbsp;</tt>strerror&nbsp;=
+'No such file or directory'
+
+
+<!-- The above is a description of an error in a Python program, formatted
+     for a Web browser because the 'cgitb' module was enabled.  In case you
+     are not reading this in a Web browser, here is the original traceback:
+
+Traceback (most recent call last):
+  File "/var/www/web/cgi-bin/upload3.py", line 237, in &lt;module&gt;
+    Upload(Name, Path)
+  File "/var/www/web/cgi-bin/upload3.py", line 89, in Upload
+    File = open(Path, "rb")
+IOError: [Errno 2] No such file or directory: '/p/tmp/usend_27978/usearch7.0.1001_i86linux32'
+
+-->
+
