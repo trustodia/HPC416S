@@ -14,8 +14,8 @@ usearch version 6.1.554 # rename USEARCH61
 Make sure usearch version 6.1.554 is installed in your path (moved to /usr/bin) or you run it your dir
 sudo chmod 777 /usr/bin/usearch61  #make executable 
 
-2.QIIME 64-bit of the latest qiime should be installed along with its dependencies.
-  Cent OS installation guide: http://www.chenlianfu.com/?p=2362  https://gist.github.com/alanorth/100dd95f809223ae0100
+2. QIIME 64-bit of the latest qiime should be installed along with its dependencies.
+  Cent OS installation guide: http://www.chenlianfu.com/?p=2362 and  https://gist.github.com/alanorth/100dd95f809223ae0100
 
 3. download reference database http://drive5.com/uchime/gold.fa
 
@@ -23,4 +23,4 @@ sudo chmod 777 /usr/bin/usearch61  #make executable
 
 5. download Faster_splitter: http://kirill-kryukov.com/study/tools/fasta-splitter/ 
 
-6. download Greengenes Databaxe ftp://greengenes.microbio.me/greengenes_release/gg_13_5/gg_13_8_otus.tar.gz
+6. download Greengenes Database ftp://greengenes.microbio.me/greengenes_release/gg_13_5/gg_13_8_otus.tar.gz
