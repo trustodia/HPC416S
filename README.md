@@ -8,6 +8,9 @@ Here, we show how to overcome the above challenge by relabeling sequence identif
 # Equipment:
 Linux or Unix 64-bit OS, > 20GB RAM and > 4 CPU cores.
 
+# Script-flow:
+convert_fq_fa.sh -> merge-paired-reads.sh -> creat_OTU.sh -> create_phylo.sh -> pred_genes.sh
+
 # Tools/requirements:
 1. USEARCH 7.0.1001: http://www.drive5.com/usearch/download.html and 
 usearch version 6.1.554 # rename USEARCH61
