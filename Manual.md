@@ -1,9 +1,7 @@
-# HackFest HPC416S
-SOP 16SrRNA microbial diversity : large data analysis
-This is the analysis for amplicon shot gun sequences without sample barcodes, meta-data information and mapping file. In this situation the reads are already multiplexed, without barcode labels. This can affect downstream analysis. In this situation, analysis can only be done at a sequence level.
+Note:The below workflow is for sequence level analysis for RNAseq data (16SrRNA).
 
 # Objectives
-Here, we show how to overcome the above challenge by relabeling sequence identifiers and achieve  the following objectives: (1) assign taxonomy (2) compare phylogenetic relationship among sequences (3) predict genes and functions. This SOP focuses on overcoming memory cap issues with USEARCH 32-bit version. The included scripts can be used to perform these objectives.
+Here, we show how to (1) assign taxonomy (2) compare phylogenetic relationship among sequences (3) predict genes and functions. This SOP focuses on overcoming memorycap issues with USEARCH 32-bit version. The included scripts can be used to perform these objectives.
 
 # Equipment:
 Linux or Unix 64-bit OS, > 20GB RAM and > 4 CPU cores.
