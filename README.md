@@ -18,7 +18,7 @@ Thanks for your interest in contributing to [HPC416S]! There are many ways to co
 
 ## Participation Guidelines
 
-This project adheres to a [code of conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [trust.odia@covenantuniversity.edu.ng].
+This project adheres to a  [participation guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/) and [code of conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [trust.odia@covenantuniversity.edu.ng].
 
 ## MozSprint
 
