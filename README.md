@@ -9,8 +9,13 @@ To perform complete metagenomics analysis, high performance computing power is r
 Can we ceate/build an open HPC/compute resource for metagenomics analysis, with remote access?]
 
 ## Getting Started
+To contribute/collaborate to this project, [join us here](https://etherpad.wikimedia.org/p/HPC416S),and 
+1. provide a list of open/free/public/accessible compute resources/HPC(e.g Amazon,Azure clouds) that we can use.
+2. provide ideas/tools/materials on how to build (1) above. (if you already have one, are you willing to give us access?)
+3. Migrate the scripts on this repo to (1) above, this is done after Step (1)
 
-[ for sequence based analysis for 16SrRNA, see (Manual.md) ]
+Note: The scripts on this repo are for performing 16SrRNA analysis at the sequence level,
+i.e when you don't have information about your samples. See [Manual](Manual.md)
 
 ## Contributing
 
